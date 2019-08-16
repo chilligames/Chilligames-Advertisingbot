@@ -39,7 +39,7 @@
           
           $url   = $GLOBALS['bot_url'] . "/sendVideo";
           $_params  = [
-                             'chat_id'=>  -1001221511857,
+                             'chat_id'=>  [id group or channel],
                              'video' => $GLOBALS['video'] ,
                              'caption' =>$GLOBALS['video_caption']
 
